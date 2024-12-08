@@ -1,0 +1,26 @@
+#labelContador{
+    display:block;
+    text-align: center;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serifs;
+    margin:2%;
+}
+#btnContainer{
+    margin:1%;
+    text-align: center;
+}
+button{
+    color:white;
+    background-color: rgb(126, 186, 255);
+    height:2.5rem;
+    width:5rem;
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(13, 134, 255);
+}
+button:active{
+    transform: scale(0.89);
+    transition:0.3s;
+}
